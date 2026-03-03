@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Kedebideri", sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  
+ color: rgba(255, 255, 255, 0.87);
+  
+  /* Colore di fallback */
+  background-color: #33212C; 
+
+  /* Gradiente lineare molto sottile */
+  background-image: linear-gradient(to top, #33212C, #3a2730);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+  font-weight: 500;
+ 
+  text-decoration: inherit;
+}
+a:hover {
+  
+}
+
+body {
+  margin: 0;
+  display: flex;
+  
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {  
+  line-height: 1.1;
+  font-family: El Messiri;
+}
+
+button {
+  
+  cursor: pointer;  
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.titleItem{
+    font-size: 20px;
+    font-family: El Messiri;    
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.background-primary{
+  background-color:#33212C;
+}
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+
