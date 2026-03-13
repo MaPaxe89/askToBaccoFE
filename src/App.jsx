@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import { Routes, Route } from "react-router-dom";
 import CardVinoPage from './Pages/CardVinoPage';
 import SingleWinePage from './Pages/SingleWinePage';
+import Login from './components/Login';
+import Register from './components/Register';
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
     <Routes>
         <Route path="/" element={<Home />} />     
         <Route path="/cardVinoPage" element={<CardVinoPage />} />
-        <Route path="/singleWinePage/:idVino" element={<SingleWinePage />} />    
+        <Route path="/singleWinePage/:idVino" element={<SingleWinePage />} />
+        <Route path="Login" element={<Login />} /> 
+        <Route path="Register" element={<Register />} />   
     </Routes>
     </div>
     

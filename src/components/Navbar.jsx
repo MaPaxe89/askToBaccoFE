@@ -28,10 +28,10 @@ const Navbar = () =>{
     </div>
     
     <div className="z-10 flex items-center gap-4"> 
-       <Link to={`/`} className="hover:text-gray-300 transition duration-200">
+       <Link to={`/login`} className="hover:text-gray-300 transition duration-200">
             Login
        </Link>
-       <Link to={`/`} className="bg-red-700 hover:bg-red-800 text-white py-2 px-4 rounded-lg shadow-md transition duration-200">
+       <Link to={`/register`} className="bg-red-700 hover:bg-red-800 text-white py-2 px-4 rounded-lg shadow-md transition duration-200">
             Register
        </Link>
     </div>
