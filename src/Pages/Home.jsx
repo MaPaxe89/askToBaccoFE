@@ -29,16 +29,7 @@ export const Home = () => {
       
       
     </div>
-    <div className='grid grid-cols-1 md:grid-cols-4 sm:grid-cols-4 md:gap-1 mt-10 text-center items-center'>
-      <div className='w-70 h-70 border-13 rounded border-[#3d2e379f]'>
-        
-        <img src="public\images\thumb.jpg" alt="" className='object-cover'/>
-      </div>
-      <div className='w-70 h-70 border-13 rounded border-[#3d2e379f]'> SONO BLOCCO 1</div>
-      <div className='w-70 h-70 border-3 rounded border-[#3d2e379f]'>SONO BLOCCO 1</div>
-      <div className='w-70 h-70 border-3 rounded border-[#3d2e379f]'>SONO BLOCCO 1</div>
-
-    </div>
+    
     
     </>
   )

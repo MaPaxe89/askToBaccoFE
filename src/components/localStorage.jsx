@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const getProtectedData = async () => {
+export const getProtectedData = async () => {
     const user = JSON.parse(localStorage.getItem('user'));
 
     if (user && user.token) {

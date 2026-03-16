@@ -9,13 +9,14 @@ import CardVinoPage from './Pages/CardVinoPage';
 import SingleWinePage from './Pages/SingleWinePage';
 import Login from './components/Login';
 import Register from './components/Register';
-
+import { AuthProvider } from './components/AuthContext';
 
 function App() {
  
 
   return (
     <>
+    <AuthProvider>
     <Navbar />
     <div className="pt-20 ">
     <Routes>
@@ -26,7 +27,7 @@ function App() {
         <Route path="Register" element={<Register />} />   
     </Routes>
     </div>
-    
+    </AuthProvider>    
     
     </>    
     
